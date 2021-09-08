@@ -122,12 +122,13 @@
           "fontStyle": "bold"
         }
       },
-      {
-        "scope": ["support.class.component.js", "support.class.component.tsx"],
-        "settings": {
-          "fontStyle": "underline"
-        }
-      },
+
+      // {
+      //   "scope": ["support.class.component.js", "support.class.component.tsx"],
+      //   "settings": {
+      //     "fontStyle": "underline"
+      //   }
+      // },
 
       {
         "scope": [
@@ -139,12 +140,12 @@
           "variable.language.this.js",
           "storage.type.function.tsx",
           "storage.type.tsx",
-          "storage.type.function.js",
-          //for operator mono uncomment below
-          "entity.other.attribute-name.tsx",
-          "string.quoted.double.js",
-          "string.quoted.double.tsx",
-          "string.quoted.double.ts"
+          "storage.type.function.js"
+          //!for operator mono uncomment below
+          // "entity.other.attribute-name.tsx",
+          // "string.quoted.double.js",
+          // "string.quoted.double.tsx",
+          // "string.quoted.double.ts"
         ],
         "settings": {
           "fontStyle": "italic"
@@ -171,6 +172,7 @@
           "foreground": "#a57ee7"
         }
       },
+
       {
         "scope": ["support.class.component.tsx", "support.class.component.js"],
         "settings": {
@@ -184,6 +186,7 @@
           "foreground": "#f764d7"
         }
       },
+
       {
         "scope": [
           "variable.other.readwrite.alias.js",
@@ -241,6 +244,7 @@
           "foreground": "#e04848"
         }
       },
+
       {
         "scope": ["text.html.derivative"],
         "settings": {
@@ -286,7 +290,8 @@
     "**/.hg": true,
     "**/.svn": true,
     "**/CVS": true,
-    "**/deps": true
+    "**/deps": true,
+    "**/node_modules": true
   },
 
   "editor.defaultFormatter": "esbenp.prettier-vscode",
