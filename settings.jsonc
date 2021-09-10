@@ -1,7 +1,19 @@
 {
   //! Color Theme Settings
   "workbench.colorCustomizations": {
-    "foreground": "#aaa7a7",
+    "foreground": "#c6a6ff",
+
+    "progressBar.background": "#ab0089",
+
+    "list.hoverBackground": "#000000",
+    "list.activeSelectionBackground": "#1F1E1F",
+    "list.activeSelectionForeground": "#f8bf04",
+    "list.inactiveSelectionBackground": "#00000057",
+    "list.inactiveSelectionForeground": "#c954ff",
+    "list.hoverForeground": "#ff6b08",
+    "list.dropBackground": "#000000",
+    "list.highlightForeground": "#a7ff2c",
+    "list.focusForeground": "#ff3b97",
 
     "widget.shadow": "#000000",
 
@@ -25,8 +37,14 @@
     "titleBar.activeForeground": "#000000",
     "titleBar.activeBackground": "#1F1E1F",
 
-    "button.background": "#710bd1a1",
-    "button.hoverBackground": "#050405f8",
+    "button.background": "#ff8f00d9",
+    "button.foreground": "#000000",
+    "button.hoverBackground": "#9965f7",
+    "button.secondaryForeground": "#ff8f00d9",
+    "button.secondaryBackground": "#000000",
+    "button.secondaryHoverBackground": "#323232",
+
+    "textLink.foreground": "#00bbff",
 
     "statusBar.background": "#1F1E1F",
     "statusBar.foreground": "#000000",
@@ -36,8 +54,10 @@
     "tab.activeBackground": "#31313181",
     "tab.activeForeground": "#aa87b4",
     "tab.hoverBackground": "#080808af",
+    "tab.hoverForeground": "#b341ff",
     "tab.activeBorder": "#000000",
     "tab.inactiveBackground": "#1F1E1F",
+    "tab.hoverBorder": "#a963f3",
 
     "breadcrumb.foreground": "#85547d63",
 
@@ -60,14 +80,23 @@
     // "editorBracketHighlight.foreground5": "#36d048",
     // "editorBracketHighlight.foreground6": "#f39f03",
 
+    "editorHoverWidget.background": "#000000",
+    "editorHoverWidget.foreground": "#ffb107",
     "editorLineNumber.foreground": "#3a3939",
-    "editorWidget.foreground": "#a256e9d7",
+    "editorWidget.foreground": "#bd7bfb",
+    "editorWidget.background": "#000000b6",
     "editorCursor.foreground": "#e204ff",
     "editorLineNumber.activeForeground": "#f100d1a9",
     "editorIndentGuide.background": "#2e2d2d",
     "editorGroupHeader.tabsBackground": "#1F1E1F",
     "editorWhitespace.foreground": "#2e2d2d",
     "editorOverviewRuler.border": "#1F1E1F",
+
+    "pickerGroup.border": "#9d4b08",
+    "pickerGroup.foreground": "#79ff4c",
+
+    "gitDecoration.modifiedResourceForeground": "#49a2fb",
+    "gitDecoration.addedResourceForeground": "#ff6fcf",
 
     "activityBar.border": "#1F1E1F",
     "activityBar.activeBorder": "#750279c2",
@@ -77,19 +106,18 @@
     "activityBarBadge.foreground": "#f471fd",
     "activityBar.activeBackground": "#0202022a",
 
-    "list.activeSelectionBackground": "#1F1E1F",
-    "list.activeSelectionForeground": "#f8bf04",
-    "list.hoverBackground": "#000000",
-
     "sideBarTitle.foreground": "#9980a5c2",
     "sideBarSectionHeader.background": "#1F1E1F",
     "sideBarSectionHeader.foreground": "#d368d6c2",
     "sideBarSectionHeader.border": "#d368d6c2",
 
+    "input.background": "#1F1E1F",
+    "input.foreground": "#00ff34d9",
+
     "sideBar.background": "#1F1E1F",
     "sideBar.border": "#1F1E1F",
     "sideBar.dropBackground": "#23db0b",
-    "sideBar.foreground": "#8b8e8dc2",
+    "sideBar.foreground": "#7e7293",
 
     "terminal.background": "#111111",
     "terminal.foreground": "#ff1b6e",
@@ -190,7 +218,7 @@
       {
         "scope": ["support.class.component"],
         "settings": {
-          "foreground": "#dfe65ad5"
+          "foreground": "#d6c90c"
         }
       },
 
@@ -198,13 +226,6 @@
         "scope": ["storage.type"],
         "settings": {
           "foreground": "#f764d7"
-        }
-      },
-
-      {
-        "scope": ["variable.other.readwrite.alias"],
-        "settings": {
-          "foreground": "#ff6666e1"
         }
       },
 
@@ -234,13 +255,6 @@
         "scope": ["keyword.other.unit"],
         "settings": {
           "foreground": "#68f774fb"
-        }
-      },
-
-      {
-        "scope": ["string.quoted.double"],
-        "settings": {
-          "foreground": "#6fee73de"
         }
       },
 
