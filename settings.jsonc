@@ -18,12 +18,12 @@
     "widget.shadow": "#000000",
 
     "menubar.selectionForeground": "#ff29ad",
-    "menubar.selectionBackground": "#8a535300",
+    "menubar.selectionBackground": "#0000002b",
     "menubar.selectionBorder": "#7904ff00",
 
     "menu.foreground": "#ff0aca",
-    "menu.background": "#0000007e",
-    "menu.selectionForeground": "#b3ff00",
+    "menu.background": "#00000095",
+    "menu.selectionForeground": "#f8bf04",
     "menu.selectionBackground": "#fcfc0400",
     "menu.selectionBorder": "#00000000",
     "menu.separatorBackground": "#000000",
@@ -34,7 +34,7 @@
     "panelInput.border": "#ff00775d",
 
     "titleBar.border": "#00000000",
-    "titleBar.activeForeground": "#000000",
+    "titleBar.activeForeground": "#9863fb9c",
     "titleBar.activeBackground": "#1F1E1F",
 
     "button.background": "#ff8f00d9",
@@ -49,12 +49,13 @@
     "statusBar.background": "#1F1E1F",
     "statusBar.foreground": "#000000",
     "statusBarItem.hoverBackground": "#a4016eb9",
+    "statusBarItem.remoteBackground": "#000000",
 
     "tab.border": "#000000",
     "tab.activeBackground": "#31313181",
-    "tab.activeForeground": "#aa87b4",
+    "tab.activeForeground": "#b187b4",
     "tab.hoverBackground": "#080808af",
-    "tab.hoverForeground": "#b341ff",
+    "tab.hoverForeground": "#bc9cf7",
     "tab.activeBorder": "#000000",
     "tab.inactiveBackground": "#1F1E1F",
     "tab.hoverBorder": "#a963f3",
@@ -85,7 +86,7 @@
     "editorLineNumber.foreground": "#3a3939",
     "editorWidget.foreground": "#bd7bfb",
     "editorWidget.background": "#000000b6",
-    "editorCursor.foreground": "#e204ff",
+    "editorCursor.foreground": "#fc3cb6",
     "editorLineNumber.activeForeground": "#f100d1a9",
     "editorIndentGuide.background": "#2e2d2d",
     "editorGroupHeader.tabsBackground": "#1F1E1F",
@@ -99,8 +100,9 @@
     "gitDecoration.addedResourceForeground": "#ff6fcf",
 
     "activityBar.border": "#1F1E1F",
-    "activityBar.activeBorder": "#750279c2",
-    "activityBar.foreground": "#000000",
+    "activityBar.activeBorder": "#473569",
+    "activityBar.foreground": "#a371ffbb",
+    "activityBar.inactiveForeground": "#000000",
     "activityBar.background": "#1F1E1F",
     "activityBarBadge.background": "#020202fb",
     "activityBarBadge.foreground": "#f471fd",
@@ -232,7 +234,7 @@
       {
         "scope": ["constant.language"],
         "settings": {
-          "foreground": "#fde845bd"
+          "foreground": "#ffa550"
         }
       },
 
@@ -247,7 +249,7 @@
       {
         "scope": ["constant.numeric"],
         "settings": {
-          "foreground": "#b56df8"
+          "foreground": "#ffa550"
         }
       },
 
@@ -337,10 +339,10 @@
   "editor.mouseWheelZoom": true,
   "editor.smoothScrolling": true,
   "editor.inlineSuggest.enabled": true,
-  "editor.fontFamily": "Fira Code iScript Light, Cascadia Code, Anonymous Pro, Operator Mono",
+  "editor.fontFamily": "Operator Mono, Fira Code iScript Light, Cascadia Code, Anonymous Pro",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.cursorBlinking": "expand",
-  "editor.cursorWidth": 2,
+  "editor.cursorWidth": 3,
   "editor.renderWhitespace": "boundary",
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
@@ -369,8 +371,6 @@
   "html.format.wrapLineLength": 150,
 
   "tabnine.experimentalAutoImports": true,
-
-  "window.zoomLevel": -1,
   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
 
   "tailwindCSS.emmetCompletions": true,
@@ -393,5 +393,6 @@
 
   "security.workspace.trust.untrustedFiles": "open",
 
-  "prettier.jsxBracketSameLine": true
+  "prettier.jsxBracketSameLine": true,
+  "window.zoomLevel": -1
 }
