@@ -7,26 +7,26 @@
 
     "list.hoverBackground": "#000000",
     "list.activeSelectionBackground": "#1F1E1F",
-    "list.activeSelectionForeground": "#f8bf04",
-    "list.inactiveSelectionBackground": "#00000057",
-    "list.inactiveSelectionForeground": "#c954ff",
-    "list.hoverForeground": "#ff6b08",
+    "list.activeSelectionForeground": "#f89604",
+    "list.inactiveSelectionBackground": "#0000005c",
+    "list.inactiveSelectionForeground": "#c03aff",
+    "list.hoverForeground": "#ffa909",
     "list.dropBackground": "#000000",
     "list.highlightForeground": "#a7ff2c",
     "list.focusForeground": "#ff3b97",
 
     "widget.shadow": "#000000",
 
-    "menubar.selectionForeground": "#ff29ad",
+    "menubar.selectionForeground": "#ffa909",
     "menubar.selectionBackground": "#0000002b",
     "menubar.selectionBorder": "#7904ff00",
 
-    "menu.foreground": "#ff0aca",
+    "menu.foreground": "#c675fb",
     "menu.background": "#00000095",
-    "menu.selectionForeground": "#f8bf04",
+    "menu.selectionForeground": "#ffa909",
     "menu.selectionBackground": "#fcfc0400",
     "menu.selectionBorder": "#00000000",
-    "menu.separatorBackground": "#000000",
+    "menu.separatorBackground": "#ff912a",
 
     "panel.background": "#000000a6",
     "panelTitle.activeBorder": "#ebfc03",
@@ -34,7 +34,7 @@
     "panelInput.border": "#ff00775d",
 
     "titleBar.border": "#00000000",
-    "titleBar.activeForeground": "#9863fb9c",
+    "titleBar.activeForeground": "#b695f37e",
     "titleBar.activeBackground": "#1F1E1F",
 
     "button.background": "#ff8f00d9",
@@ -52,10 +52,10 @@
     "statusBarItem.remoteBackground": "#000000",
 
     "tab.border": "#000000",
-    "tab.activeBackground": "#31313181",
-    "tab.activeForeground": "#b187b4",
+    "tab.activeBackground": "#40344281",
+    "tab.activeForeground": "#a787a9",
     "tab.hoverBackground": "#080808af",
-    "tab.hoverForeground": "#bc9cf7",
+    "tab.hoverForeground": "#ffa909",
     "tab.activeBorder": "#000000",
     "tab.inactiveBackground": "#1F1E1F",
     "tab.hoverBorder": "#a963f3",
@@ -82,7 +82,7 @@
     // "editorBracketHighlight.foreground6": "#f39f03",
 
     "editorHoverWidget.background": "#000000",
-    "editorHoverWidget.foreground": "#ffb107",
+    "editorHoverWidget.foreground": "#d59b30",
     "editorLineNumber.foreground": "#3a3939",
     "editorWidget.foreground": "#bd7bfb",
     "editorWidget.background": "#000000b6",
@@ -97,7 +97,8 @@
     "pickerGroup.foreground": "#79ff4c",
 
     "gitDecoration.modifiedResourceForeground": "#49a2fb",
-    "gitDecoration.addedResourceForeground": "#ff6fcf",
+    "gitDecoration.addedResourceForeground": "#8eff6f",
+    "gitDecoration.untrackedResourceForeground": "#fb54c4",
 
     "activityBar.border": "#1F1E1F",
     "activityBar.activeBorder": "#473569",
@@ -114,7 +115,7 @@
     "sideBarSectionHeader.border": "#d368d6c2",
 
     "input.background": "#1F1E1F",
-    "input.foreground": "#00ff34d9",
+    "input.foreground": "#ffa632",
 
     "sideBar.background": "#1F1E1F",
     "sideBar.border": "#1F1E1F",
@@ -164,16 +165,16 @@
         }
       },
 
-      {
-        "scope": ["support.class.component.js", "support.class.component.tsx"],
-        "settings": {
-          "fontStyle": "underline"
-        }
-      },
+      // {
+      //   "scope": ["support.class.component.js", "support.class.component.tsx"],
+      //   "settings": {
+      //     "fontStyle": "underline"
+      //   }
+      // },
 
       {
         "scope": [
-          //!for operator mono / iScript uncomment below if commented
+          //!for operator mono / iScript/ dank mono uncomment below if commented
           "keyword.control.loop",
           "keyword.control.import",
           "keyword.control.export",
@@ -186,12 +187,12 @@
           "entity.other.attribute-name.id.css",
           "entity.other.attribute-name",
           "storage.type.js",
-          "storage.type.function.js",
-          "storage.type.function.tsx",
           "storage.type.tsx",
           "variable.language.this",
           "keyword.control.trycatch",
           "comment"
+          // "storage.type.function.js",
+          // "storage.type.function.tsx",
           // "string.quoted.double"
         ],
         "settings": {
@@ -335,11 +336,12 @@
   "editor.insertSpaces": true,
   "editor.lineHeight": 20,
   "editor.letterSpacing": 0.25,
-  "editor.fontWeight": "90",
+  "editor.fontSize": 14,
+  "editor.fontWeight": "10",
   "editor.mouseWheelZoom": true,
   "editor.smoothScrolling": true,
   "editor.inlineSuggest.enabled": true,
-  "editor.fontFamily": "Operator Mono, Fira Code iScript Light, Cascadia Code, Anonymous Pro",
+  "editor.fontFamily": "Dank Mono, Operator Mono, Fira Code iScript Light, Anonymous Pro",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.cursorBlinking": "expand",
   "editor.cursorWidth": 3,
@@ -350,7 +352,6 @@
   "editor.minimap.maxColumn": 80,
   "editor.minimap.renderCharacters": false,
   "editor.wordWrap": "on",
-  "editor.fontSize": 13.5,
   "editor.bracketPairColorization.enabled": true,
   "editor.suggest.preview": true,
 
@@ -382,7 +383,7 @@
 
   "terminal.integrated.fontSize": 23,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "terminal.integrated.fontFamily": "Cascadia Code",
+  "terminal.integrated.fontFamily": "JetBrains Mono, Cascadia Code",
 
   "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
