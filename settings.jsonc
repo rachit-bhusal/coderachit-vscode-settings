@@ -71,8 +71,8 @@
     "editor.foreground": "#e181ff",
 
     //?bracket pair colorizer
-    "editorBracketMatch.background": "#404040",
-    "editorBracketMatch.border": "#f09cffc1",
+    "editorBracketMatch.background": "#000000",
+    "editorBracketMatch.border": "#000000",
     "editorBracketHighlight.unexpectedBracket.foreground": "#ff0303",
     // "editorBracketHighlight.foreground1": "#aa78ff",
     // "editorBracketHighlight.foreground2": "#ff00dd",
@@ -125,7 +125,7 @@
     "terminal.background": "#111111",
     "terminal.foreground": "#ff1b6e",
     "terminalCursor.background": "#ffffff",
-    "terminalCursor.foreground": "#3650ff",
+    "terminalCursor.foreground": "#069fff",
     "terminal.ansiBlack": "#000000",
     "terminal.ansiBlue": "#0066FF",
     "terminal.ansiBrightBlack": "#808080",
@@ -150,20 +150,20 @@
   "editor.tokenColorCustomizations": {
     "comments": "#616380",
     "textMateRules": [
-      {
-        "scope": [
-          "entity.name.function",
-          "entity.name.method",
-          "entity.name.tag.wildcard.css",
-          "entity.name.tag.css"
-          // "support.type.property-name.json.comments"
-          // "meta.brace.square.tsx"
-          // "entity.name.tag"
-        ],
-        "settings": {
-          "fontStyle": "bold"
-        }
-      },
+      // {
+      //   "scope": [
+      //     "entity.name.function",
+      //     "entity.name.method",
+      //     "entity.name.tag.wildcard.css",
+      //     "entity.name.tag.css"
+      //     // "support.type.property-name.json.comments"
+      //     // "meta.brace.square.tsx"
+      //     // "entity.name.tag"
+      //   ],
+      //   "settings": {
+      //     "fontStyle": "bold"
+      //   }
+      // },
 
       // {
       //   "scope": ["support.class.component.js", "support.class.component.tsx"],
@@ -303,7 +303,12 @@
 
   //! editor settings
   "files.associations": {
-    "*.jsx": "javascriptreact"
+    "*.jsx": "javascriptreact",
+    "*.tsx": "typescriptreact",
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json",
+    ".env.*": "dotenv"
   },
 
   // "eslint.validate": [
@@ -317,9 +322,8 @@
     "typescriptreact": "html"
   },
 
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
+  "emmet.syntaxProfiles": { "javascript": "jsx" },
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
 
   "files.exclude": {
     "**/.DS_Store": true,
@@ -335,16 +339,16 @@
   "editor.formatOnSave": true,
   "editor.insertSpaces": true,
   "editor.lineHeight": 20,
-  "editor.letterSpacing": 0.25,
+  // "editor.letterSpacing": 0.25,
   "editor.fontSize": 14,
-  "editor.fontWeight": "10",
+  "editor.fontWeight": "1",
   "editor.mouseWheelZoom": true,
   "editor.smoothScrolling": true,
   "editor.inlineSuggest.enabled": true,
-  "editor.fontFamily": "Dank Mono, Operator Mono, Fira Code iScript Light, Anonymous Pro",
+  "editor.fontFamily": "Dank Mono, Operator Mono, Fira Code iScript Light",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.cursorBlinking": "expand",
-  "editor.cursorWidth": 3,
+  "editor.cursorWidth": 2,
   "editor.renderWhitespace": "boundary",
   "editor.scrollbar.horizontal": "hidden",
   "editor.scrollbar.vertical": "hidden",
@@ -352,12 +356,11 @@
   "editor.minimap.maxColumn": 80,
   "editor.minimap.renderCharacters": false,
   "editor.wordWrap": "on",
-  "editor.bracketPairColorization.enabled": true,
   "editor.suggest.preview": true,
 
   "workbench.startupEditor": "none",
   "workbench.sideBar.location": "right",
-  "workbench.colorTheme": "One Dark Pro Flat",
+  "workbench.colorTheme": "One Dark Pro Darker",
   "workbench.iconTheme": "material-icon-theme",
 
   "files.trimTrailingWhitespace": true,
@@ -381,13 +384,15 @@
   "typescript.suggest.paths": true,
   "path-intellisense.extensionOnImport": true,
 
-  "terminal.integrated.fontSize": 23,
+  "terminal.integrated.fontSize": 24,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.fontFamily": "JetBrains Mono, Cascadia Code",
 
   "javascript.updateImportsOnFileMove.enabled": "always",
   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "javascript.suggest.autoImports": true,
 
+  "typescript.suggest.autoImports": true,
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
 
   "explorer.confirmDragAndDrop": false,
@@ -395,5 +400,12 @@
   "security.workspace.trust.untrustedFiles": "open",
 
   "prettier.jsxBracketSameLine": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  // "prettier.semi": false,
+
+  "editor.suggestSelection": "first",
+
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "window.zoomLevel": -1
 }
