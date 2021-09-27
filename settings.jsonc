@@ -311,12 +311,12 @@
       ".env.*": "dotenv"
    },
 
-   // "eslint.validate": [
-   //   "javascript",
-   //   "javascriptreact",
-   //   "typescript",
-   //   "typescriptreact"
-   // ],
+   "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact"
+   ],
 
    "tailwindCSS.includeLanguages": {
       "typescriptreact": "html"
@@ -339,13 +339,11 @@
    "editor.formatOnSave": true,
    "editor.insertSpaces": true,
    "editor.lineHeight": 20,
-   // "editor.letterSpacing": 0.25,
-   "editor.fontSize": 14,
    "editor.fontWeight": "1",
    "editor.mouseWheelZoom": true,
    "editor.smoothScrolling": true,
    "editor.inlineSuggest.enabled": true,
-   "editor.fontFamily": "Dank Mono, Operator Mono, Fira Code iScript Light",
+   "editor.fontFamily": "Dank Mono, MonoLisa",
    "editor.cursorSmoothCaretAnimation": true,
    "editor.cursorBlinking": "expand",
    "editor.cursorWidth": 2,
@@ -406,9 +404,22 @@
    "prettier.useTabs": false,
    // "prettier.semi": false,
 
+   // Decoration color for small packages
+   "importCost.smallPackageColor": "#66cc8d",
+
+   // Decoration color for medium packages
+   "importCost.mediumPackageColor": "#c6de68",
+
+   // Decoration color for large packages
+   "importCost.largePackageColor": "#d44e40",
+
    "editor.suggestSelection": "first",
 
    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+
    "typescript.updateImportsOnFileMove.enabled": "always",
-   "window.zoomLevel": -1
+
+   "window.zoomLevel": -1,
+
+   "editor.fontSize": 13.5
 }
