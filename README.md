@@ -1,1 +1,1 @@
-#This is my vscode settings :smile:
+## This is my vscode settings 😏
