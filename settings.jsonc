@@ -338,8 +338,9 @@
    "editor.defaultFormatter": "esbenp.prettier-vscode",
    "editor.formatOnSave": true,
    "editor.insertSpaces": true,
-   "editor.lineHeight": 20,
-   "editor.fontWeight": "1",
+   "editor.lineHeight": 19,
+   "editor.letterSpacing": 0.01,
+   "editor.fontWeight": "10",
    "editor.mouseWheelZoom": true,
    "editor.smoothScrolling": true,
    "editor.inlineSuggest.enabled": true,
@@ -354,8 +355,7 @@
    "editor.minimap.maxColumn": 80,
    "editor.minimap.renderCharacters": false,
    "editor.wordWrap": "on",
-   "editor.suggest.preview": true,
-
+   // "editor.suggest.preview": true,
    "workbench.startupEditor": "none",
    "workbench.sideBar.location": "right",
    "workbench.colorTheme": "One Dark Pro Darker",
@@ -373,7 +373,7 @@
    "html.format.wrapLineLength": 150,
 
    "tabnine.experimentalAutoImports": true,
-   "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+   "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
 
    "tailwindCSS.emmetCompletions": true,
 
@@ -382,9 +382,9 @@
    "typescript.suggest.paths": true,
    "path-intellisense.extensionOnImport": true,
 
-   "terminal.integrated.fontSize": 20,
+   "terminal.integrated.fontSize": 23,
    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
-   "terminal.integrated.fontFamily": "JetBrains Mono, Cascadia Code",
+   "terminal.integrated.fontFamily": "MonoLisa",
 
    "javascript.updateImportsOnFileMove.enabled": "always",
    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
@@ -402,14 +402,13 @@
    "prettier.singleQuote": true,
    "prettier.tabWidth": 3,
    "prettier.useTabs": false,
-   // "prettier.semi": false,
+   "prettier.trailingComma": "all",
+   "prettier.semi": true,
 
    // Decoration color for small packages
    "importCost.smallPackageColor": "#66cc8d",
-
    // Decoration color for medium packages
    "importCost.mediumPackageColor": "#c6de68",
-
    // Decoration color for large packages
    "importCost.largePackageColor": "#d44e40",
 
@@ -419,7 +418,11 @@
 
    "typescript.updateImportsOnFileMove.enabled": "always",
 
-   "window.zoomLevel": -1,
+   "editor.fontSize": 13,
 
-   "editor.fontSize": 13.5
+   "editor.linkedEditing": true,
+
+   "window.zoomLevel": -1.2,
+
+   "workbench.productIconTheme": "material-product-icons"
 }
