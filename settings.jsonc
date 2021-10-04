@@ -96,9 +96,10 @@
       "pickerGroup.border": "#9d4b08",
       "pickerGroup.foreground": "#79ff4c",
 
-      "gitDecoration.modifiedResourceForeground": "#49a2fb",
-      "gitDecoration.addedResourceForeground": "#8eff6f",
-      "gitDecoration.untrackedResourceForeground": "#fb54c4",
+      "gitDecoration.modifiedResourceForeground": "#499df1b2",
+      "gitDecoration.addedResourceForeground": "#034cf6",
+      "gitDecoration.untrackedResourceForeground": "#ff64cbb7",
+      "gitDecoration.stageModifiedResourceForeground": "#c818fd",,
 
       "activityBar.border": "#1F1E1F",
       "activityBar.activeBorder": "#473569",
