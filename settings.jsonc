@@ -99,7 +99,7 @@
       "gitDecoration.modifiedResourceForeground": "#499df1b2",
       "gitDecoration.addedResourceForeground": "#034cf6",
       "gitDecoration.untrackedResourceForeground": "#ff64cbb7",
-      "gitDecoration.stageModifiedResourceForeground": "#c818fd",,
+      "gitDecoration.stageModifiedResourceForeground": "#c818fd",
 
       "activityBar.border": "#1F1E1F",
       "activityBar.activeBorder": "#473569",
