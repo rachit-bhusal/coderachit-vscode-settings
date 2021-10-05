@@ -1,3 +1,3 @@
 ## coderachit's vscode settings 🔡
 
-#use Aton One Dark theme 
+# Use AtomOneDark Theme 
