@@ -3,7 +3,7 @@
    "workbench.colorCustomizations": {
       "foreground": "#c6a6ff",
 
-      "progressBar.background": "#ab0089",
+      "progressBar.background": "#a371ffbb",
 
       "list.hoverBackground": "#000000",
       "list.activeSelectionBackground": "#151515",
@@ -129,22 +129,22 @@
       "terminal.foreground": "#ff1b6e",
       "terminalCursor.background": "#ffffff",
       "terminalCursor.foreground": "#069fff",
-      "terminal.ansiBlack": "#000000",
-      "terminal.ansiBlue": "#404cbb",
-      "terminal.ansiBrightBlack": "#808080",
-      "terminal.ansiBrightBlue": "#67da0a",
-      "terminal.ansiBrightCyan": "#0095ff",
-      "terminal.ansiBrightGreen": "#33FF00",
-      "terminal.ansiBrightMagenta": "#CC00FF",
-      "terminal.ansiBrightRed": "#FF0000",
-      "terminal.ansiBrightWhite": "#fffafa",
-      "terminal.ansiBrightYellow": "#FF0099",
-      "terminal.ansiCyan": "#00a563",
-      "terminal.ansiGreen": "#fdcf00",
-      "terminal.ansiMagenta": "#ff6905",
-      "terminal.ansiRed": "#FF0000",
-      "terminal.ansiWhite": "#ff7777",
-      "terminal.ansiYellow": "#b54afd",
+      // "terminal.ansiBlack": "#000000",
+      // "terminal.ansiBlue": "#404cbb",
+      // "terminal.ansiBrightBlack": "#808080",
+      // "terminal.ansiBrightBlue": "#67da0a",
+      // "terminal.ansiBrightCyan": "#0095ff",
+      // "terminal.ansiBrightGreen": "#33FF00",
+      // "terminal.ansiBrightMagenta": "#CC00FF",
+      // "terminal.ansiBrightRed": "#FF0000",
+      // "terminal.ansiBrightWhite": "#fffafa",
+      // "terminal.ansiBrightYellow": "#FF0099",
+      // "terminal.ansiCyan": "#00a563",
+      // "terminal.ansiGreen": "#fdcf00",
+      // "terminal.ansiMagenta": "#ff6905",
+      // "terminal.ansiRed": "#FF0000",
+      // "terminal.ansiWhite": "#ff7777",
+      // "terminal.ansiYellow": "#b54afd",
       "terminal.border": "#ebe1e1",
       "terminal.selectionBackground": "#223ad3"
    },
@@ -459,8 +459,14 @@
    "oneDarkPro.italic": false,
 
    "editor.codeActionsOnSave": {
-      "source.organizeImports": true
-   }
+      "source.organizeImports": true,
+      "source.fixAll": true
+   },
+   "oneDarkPro.vivid": false,
+   "color-highlight.matchWords": true,
+   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+   "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+   "autoimport.filesToScan": "**/*.{ts,tsx,js,jsx}"
 
    // "window.zoomLevel": -1.2
 }
