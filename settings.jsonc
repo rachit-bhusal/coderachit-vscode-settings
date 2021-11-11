@@ -324,7 +324,11 @@
    "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
 
    "tailwindCSS.includeLanguages": {
-      "typescriptreact": "html"
+      "html": "html",
+      "javascript": "javascript",
+      "javascriptreact": "react",
+      "typescript": "typescript",
+      "css": "css"
    },
 
    "emmet.syntaxProfiles": {
@@ -466,7 +470,15 @@
    "color-highlight.matchWords": true,
    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
-   "autoimport.filesToScan": "**/*.{ts,tsx,js,jsx}"
+   "autoimport.filesToScan": "**/*.{ts,tsx,js,jsx}",
+   "github.copilot.enable": {
+      "*": true,
+      "yaml": false,
+      "plaintext": true,
+      "markdown": true,
+      "json": true,
+      "jsonp": true
+   }
 
    // "window.zoomLevel": -1.2
 }
