@@ -181,26 +181,26 @@
          {
             "scope": [
                //!for operator mono / iScript/ dank mono uncomment below if commented
-               // "keyword.control.loop",
-               // "keyword.control.import",
-               // "keyword.control.export",
-               // "keyword.control.from",
-               // "keyword.control.flow",
-               // "keyword.control.conditional",
-               // "keyword.control.switch",
-               // "keyword.control.default",
-               // "keyword.operator.new",
+               // // "keyword.control.loop",
+               // // "keyword.control.import",
+               // // "keyword.control.export",
+               // // "keyword.control.from",
+               // // "keyword.control.flow",
+               // // "keyword.control.conditional",
+               // // "keyword.control.switch",
+               // // "keyword.control.default",
+               // // "keyword.operator.new",
                "entity.other.attribute-name.id.css",
                "entity.other.attribute-name",
                "variable.language.this"
-               // "storage.type.js",
-               // "storage.type.tsx",
-               // "keyword.control.trycatch"
-               // "comment",
-               // "storage.type.function.js",
-               // "storage.type.function.tsx"
-               // "string.quoted.double",
-               // "string.quoted.single"
+               // // "storage.type.js",
+               // // "storage.type.tsx",
+               // // "keyword.control.trycatch"
+               // // "comment",
+               // // "storage.type.function.js",
+               // // "storage.type.function.tsx"
+               // // "string.quoted.double",
+               // // "string.quoted.single"
             ],
             "settings": {
                "fontStyle": "italic"
@@ -328,6 +328,7 @@
       "javascript": "javascript",
       "javascriptreact": "react",
       "typescript": "typescript",
+      "typescriptreact": "react",
       "css": "css"
    },
 
@@ -399,7 +400,7 @@
    "terminal.integrated.fontSize": 19,
    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
 
-   "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font, MonoLisa",
+   "terminal.integrated.fontFamily": "JetBrains Mono, MonoLisa",
 
    "javascript.updateImportsOnFileMove.enabled": "always",
    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
@@ -417,8 +418,8 @@
    "prettier.singleQuote": true,
    "prettier.tabWidth": 3,
    "prettier.useTabs": false,
-   "prettier.semi": true,
-   "prettier.printWidth": 120,
+   "prettier.semi": false,
+   "prettier.printWidth": 110,
 
    // Decoration color for small packages
    "importCost.smallPackageColor": "#66cc8d",
@@ -429,7 +430,7 @@
 
    "editor.suggestSelection": "first",
 
-   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+   // "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 
    "typescript.updateImportsOnFileMove.enabled": "always",
 
@@ -463,10 +464,15 @@
    "oneDarkPro.italic": false,
 
    "editor.codeActionsOnSave": {
-      "source.organizeImports": true,
+      // "source.organizeImports": true,
       "source.fixAll": true
    },
+
    "oneDarkPro.vivid": false,
+   // !test tailwind
+   // "tailwindCSS.experimental.classRegex": ["class:\\s*\"([^\"]*)\""],
+   "tailwindCSS.experimental.classRegex": ["tw`([^`]*)", ["classnames\\(([^)]*)\\)", "'([^']*)'"]],
+   "emmet.triggerExpansionOnTab": true,
    "color-highlight.matchWords": true,
    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
@@ -478,7 +484,9 @@
       "markdown": true,
       "json": true,
       "jsonp": true
-   }
+   },
+   "editor.bracketPairColorization.enabled": true,
+   "editor.guides.bracketPairs": "active"
 
    // "window.zoomLevel": -1.2
 }
