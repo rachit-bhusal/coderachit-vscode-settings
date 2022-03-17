@@ -3,17 +3,9 @@
     "workbench.colorCustomizations": {
         "foreground": "#c6a6ff",
 
-        "progressBar.background": "#a371ffbb",
+        // test changes
 
-        "list.hoverBackground": "#000000",
-        "list.activeSelectionBackground": "#151515",
-        "list.activeSelectionForeground": "#f89604",
-        "list.inactiveSelectionBackground": "#0000005c",
-        "list.inactiveSelectionForeground": "#c03aff",
-        "list.hoverForeground": "#ffa909",
-        "list.dropBackground": "#000000",
-        "list.highlightForeground": "#a7ff2c",
-        "list.focusForeground": "#ff3b97",
+        "progressBar.background": "#a371ffbb",
 
         "focusBorder": "#000000",
         "widget.shadow": "#000000",
@@ -33,16 +25,6 @@
         "panelTitle.activeBorder": "#ebfc03",
         "panelTitle.activeForeground": "#ff009d",
         "panelInput.border": "#ff00775d",
-
-        "titleBar.border": "#00000000",
-        "titleBar.activeForeground": "#b695f37e",
-        "titleBar.activeBackground": "#151515",
-        "button.background": "#ff8f00d9",
-        "button.foreground": "#000000",
-        "button.hoverBackground": "#9965f7",
-        "button.secondaryForeground": "#ff8f00d9",
-        "button.secondaryBackground": "#000000",
-        "button.secondaryHoverBackground": "#323232",
 
         "textLink.foreground": "#4076f3",
 
