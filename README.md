@@ -1,5 +1,1 @@
-# 🔡 🔡 coderachit's vscode settings 🔡 🔡
-
-## 🌈 🌈Use OneDarkPro Theme 🌈🌈  
-  
-                 
+## 🔡 🔡 coderachit's vscode settings 🔡 🔡               
